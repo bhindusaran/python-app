@@ -3,9 +3,9 @@ kind: Ingress
 metadata:
   name: python-app  
 spec:
-  ingressClassName: ingress-nginx
   rules:
-  - http:
+  - host: "python-app.test.com"
+    http:    
       paths:
       - path: /
         pathType: Prefix

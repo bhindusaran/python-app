@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: bhindusaran/python-app:v2
+        image: bhindusaran/python-app:v1
         ports:
         - containerPort: 5000
