@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: bhindusaran/python-app
   pullPolicy: IfNotPresent
-  tag: f25e2e
+  tag: 0362cd
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
